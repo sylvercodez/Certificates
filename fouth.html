@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="//db.onlinewebfonts.com/c/e662339992c4abf5b43f537391bd3169?family=Candara" rel="stylesheet"
+        type="text/css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Big+Shoulders+Stencil+Display&family=Assistant&family=Oswald&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+
+            max-width: 900px;
+            width: 100%;
+            margin: auto;
+            background-color: gray;
+
+        }
+
+
+        .line {
+            border: 1px solid #072CAD;
+            margin: 0;
+            width: 92%;
+        }
+
+        .line_2 {
+            border: 1px solid #000;
+        }
+
+        .certificate {
+            color: #28788F;
+            font-weight: 700;
+            margin: 0;
+            font-size: 18px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .certificate_1 {
+            color: #28788F;
+            font-weight: bold;
+            margin: 0;
+            font-size: 50px;
+            text-align: end;
+            line-height: 25px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .second_div {
+            top: 150px;
+            position: relative;
+        }
+
+        .apprecition_tag {
+            padding-bottom: 35px;
+            margin: 0;
+            font-weight: 800;
+            color: #5A5A5A;
+            letter-spacing: 3px;
+
+            font-size: 14px;
+            font-family: 'Candara', Helvetica, sans-serif;
+        }
+
+        .proud_tag {
+            font-size: 15px;
+            color: #28788F;
+
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: none;
+
+            margin-bottom: 10px;
+        }
+
+        .name_tag {
+            font-size: 53px;
+            margin: 0;
+
+            font-weight: 500;
+            color: #16151C;
+            text-transform: none;
+            letter-spacing: 3px;
+            font-family: 'Rouge Script', cursive;
+        }
+
+        p {
+            font-size: 11px;
+            color: #16151C;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            text-transform: none;
+
+            line-height: 19px;
+            letter-spacing: 2px;
+        }
+
+        .text_tag {
+            padding-top: 13px;
+            color: #28788F;
+            font-family: 'Roboto', sans-serif;
+            font-size: 12px;
+            width: 88%;
+        }
+
+        .image_border {
+            position: absolute;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .parent_div {
+            display: flex;
+            justify-content: right;
+            margin-right: 80px;
+        }
+
+        .main_div {
+
+            display: flex;
+            width: 82%;
+            margin: auto;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .vertical_line {
+            position: static;
+            width: 8px;
+
+            margin: 0px 30px;
+        }
+
+        .child_div {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+
+        }
+        .name_div{
+            margin-bottom: 4px;
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+       
+        }
+        .last_div {
+            display: flex;
+            justify-content: space-between;
+            width: 62%;
+            padding-left: 26%;
+            align-items: center;
+            padding-top: 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="./imgs/Cert Template 4.svg" alt="" class="image_border">
+        <div class="second_div">
+            <div>
+                <div class="parent_div">
+                    <h2 class="certificate_1">CERTIFICATE <br />
+                        <span class="certificate"> OF ACHIEVEMENT</span>
+                    </h2>
+                </div>
+
+
+                <div class="main_div">
+                    <img src="./imgs/logo4.svg" alt="" width="25%" class="logo">
+                    <img src="./imgs/Line 2.svg" class="vertical_line" alt="">
+                    <div class="child_div">
+
+                        <p class="proud_tag">This certificate is presented to</p>
+                        <h1 class="name_tag">Stephanie Anderson</h1>
+
+                        <p class="text_tag">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus nulla
+                            tellus, vitae vitae amet fusce. Nam nec aliquet nunc vitae eget mattis. Sem nec ut nisi, et
+                            malesuada sapien.</p>
+
+                    </div>
+                </div>
+
+                <div class="last_div">
+                    <div style="width: 150px;">
+                        <h4  class="name_div">Brenda Smith</h4>
+                        <hr class="line_2">
+                        
+                        <p> President</p>
+                    </div>
+
+                    <div style="width: 150px;">
+                        <h4 class="name_div">Nick Cooper</h4>
+                        <hr class="line_2">
+                        <p>Organizing Committee</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
